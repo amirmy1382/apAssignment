@@ -1,4 +1,10 @@
-i = 'r' 
-s = 2 + sin(3.76)
-r = s ^ i
+q = 2.3
+s = 2 + q
+d = s + cos(q)
+f = 2 + sin(3.12)
+g = q
+a = b + c
+r = cot(g)
+r = print(10.1)
 print(r)
+print(f)
