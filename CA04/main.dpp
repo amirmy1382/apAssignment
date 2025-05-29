@@ -1,4 +1,0 @@
-i = 'r' 
-s = 2 + sin(3.76)
-r = s ^ i
-print(r)
