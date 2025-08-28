@@ -1,0 +1,10 @@
+x = 19.0
+y = 19 + x
+z = sin(19)
+t = cos(y)
+u = z + t
+v = print(23.75)
+print(v)
+print(u)
+w = 190 / 4
+print(w)

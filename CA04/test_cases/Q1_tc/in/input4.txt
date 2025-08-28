@@ -1,0 +1,10 @@
+x = 4.0
+y = 4 + x
+z = sin(4)
+t = cos(y)
+u = z + t
+v = print(5.0)
+print(v)
+print(u)
+p = 4 ^ 2
+print(p)

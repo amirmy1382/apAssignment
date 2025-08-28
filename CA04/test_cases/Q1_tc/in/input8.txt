@@ -1,0 +1,10 @@
+x = 8.0
+y = 8 + x
+z = sin(8)
+t = cos(y)
+u = z + t
+v = print(10.0)
+print(v)
+print(u)
+p = 8 ^ 2
+print(p)

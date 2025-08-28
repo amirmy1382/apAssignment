@@ -1,0 +1,10 @@
+x = 15.0
+y = 15 + x
+z = sin(15)
+t = cos(y)
+u = z + t
+v = print(18.75)
+print(v)
+print(u)
+w = 150 / 4
+print(w)

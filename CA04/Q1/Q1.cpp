@@ -4,6 +4,7 @@
 #include <unordered_map>
 #include <functional>
 #include <cmath>
+#include <iomanip>
 
 using namespace std;
 
@@ -14,8 +15,8 @@ bool isFunction(string s){
 }
 
 
-int main() {
-    ifstream file("main.dpp");
+int main(int argc, char *argv[]) {
+    //ifstream file("main.dpp");
     string line;
     unordered_map<string, double> variables;
 
@@ -33,10 +34,10 @@ int main() {
         {"cos", [](double a) { return cos(a); }},
         {"cot", [](double a) { return 1/tan(a); }},
         {"tan", [](double a) { return tan(a); }},
-        {"print", [](double a) { cout << a << endl; return 0;}}
+        {"print", [](double a) { cout << setprecision(3) << a << endl; return 0;}} //ADD setprecision(3)
     };
 
-    while (getline(file, line)) {
+    while (getline(cin, line)) { //ADD CIN
         istringstream iss(line);
         string var, equal, lhs, op, rhs;
         iss >> var;

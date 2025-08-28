@@ -1,0 +1,10 @@
+x = 16.0
+y = 16 + x
+z = sin(16)
+t = cos(y)
+u = z + t
+v = print(20.0)
+print(v)
+print(u)
+p = 16 ^ 2
+print(p)

@@ -1,0 +1,12 @@
+a = 3.4
+b = 3
+c = b
+a = 3 + a
+c = b + a
+b = 3 * 12.5
+c = b ^ 3
+c = cos(b)
+a = sin(0.3) + a
+c = 3.9 + cos(a)
+print(c)
+print(3.162)

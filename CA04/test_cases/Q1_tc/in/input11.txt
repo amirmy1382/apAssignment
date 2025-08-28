@@ -1,0 +1,10 @@
+x = 11.0
+y = 11 + x
+z = sin(11)
+t = cos(y)
+u = z + t
+v = print(13.75)
+print(v)
+print(u)
+w = 110 / 4
+print(w)

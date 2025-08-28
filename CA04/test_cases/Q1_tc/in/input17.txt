@@ -1,0 +1,10 @@
+x = 17.0
+y = 17 + x
+z = sin(17)
+t = cos(y)
+u = z + t
+v = print(21.25)
+print(v)
+print(u)
+w = 170 / 4
+print(w)

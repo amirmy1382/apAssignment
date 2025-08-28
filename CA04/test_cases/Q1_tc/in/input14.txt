@@ -1,0 +1,10 @@
+x = 14.0
+y = 14 + x
+z = sin(14)
+t = cos(y)
+u = z + t
+v = print(17.5)
+print(v)
+print(u)
+p = 14 ^ 2
+print(p)

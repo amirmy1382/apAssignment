@@ -1,0 +1,10 @@
+x = 5.0
+y = 5 + x
+z = sin(5)
+t = cos(y)
+u = z + t
+v = print(6.25)
+print(v)
+print(u)
+w = 50 / 4
+print(w)

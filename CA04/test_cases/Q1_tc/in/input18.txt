@@ -1,0 +1,10 @@
+x = 18.0
+y = 18 + x
+z = sin(18)
+t = cos(y)
+u = z + t
+v = print(22.5)
+print(v)
+print(u)
+p = 18 ^ 2
+print(p)

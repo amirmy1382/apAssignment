@@ -1,0 +1,10 @@
+x = 13.0
+y = 13 + x
+z = sin(13)
+t = cos(y)
+u = z + t
+v = print(16.25)
+print(v)
+print(u)
+w = 130 / 4
+print(w)

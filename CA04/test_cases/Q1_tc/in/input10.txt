@@ -1,0 +1,10 @@
+x = 10.0
+y = 10 + x
+z = sin(10)
+t = cos(y)
+u = z + t
+v = print(12.5)
+print(v)
+print(u)
+p = 10 ^ 2
+print(p)

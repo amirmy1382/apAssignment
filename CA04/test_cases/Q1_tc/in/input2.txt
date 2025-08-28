@@ -3,8 +3,6 @@ s = 2 + q
 d = s + cos(q)
 f = 2 + sin(3.12)
 g = q
-a = b + c
-r = cot(g)
 r = print(10.1)
 print(r)
 print(f)
