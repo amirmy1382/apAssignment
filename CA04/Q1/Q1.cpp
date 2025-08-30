@@ -7,6 +7,7 @@
 #include <iomanip>
 
 using namespace std;
+#define deg2rad(x) ((x) * M_PI / 180.0)
 
 bool isFunction(string s){
     bool beganWithAlph = !isdigit(s[0]);
@@ -30,11 +31,11 @@ int main(int argc, char *argv[]) {
     };
 
     unordered_map<string, function<double(double)>> functions = {
-        {"sin", [](double a) { return sin(a); }},
-        {"cos", [](double a) { return cos(a); }},
-        {"cot", [](double a) { return 1/tan(a); }},
-        {"tan", [](double a) { return tan(a); }},
-        {"print", [](double a) { cout << setprecision(3) << a << endl; return 0;}} //ADD setprecision(3)
+        {"sin", [](double a) { return sin(deg2rad(a)); }},
+        {"cos", [](double a) { return cos(deg2rad(a)); }},
+        {"cot", [](double a) { return 1/(tan(deg2rad(a))); }},
+        {"tan", [](double a) { return tan(deg2rad(a)); }},
+        {"print", [](double a) { cout << setprecision(20) << a << endl; return 0;}} //ADD setprecision(3)
     };
 
     while (getline(cin, line)) { //ADD CIN
