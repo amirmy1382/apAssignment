@@ -124,10 +124,14 @@ i = 1
 if test_num is not None:
     if(test(test_num, exe, ques_num)):
         suc_runs+=1
+    i += 1
+        
 else:
     while os.path.exists(get_test_path(i, True, ques_num)) and os.path.exists(get_test_path(i, False,ques_num)):
+        print(get_test_path(i, True, ques_num))
         if(test(i, exe, ques_num)):
             suc_runs+=1
         i += 1
-print(f"Test Results : {(suc_runs/i)*100}% ")      
-# os.remove(exe)    
+print(f"Test Results : {(suc_runs/(i-1))*100}% ") 
+     
+os.remove(exe)
