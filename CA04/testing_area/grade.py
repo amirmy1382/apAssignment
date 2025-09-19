@@ -132,6 +132,6 @@ else:
         if(test(i, exe, ques_num)):
             suc_runs+=1
         i += 1
-print(f"Test Results : {(suc_runs/(i-1))*100}% ") 
+print(f"Test Results : {(suc_runs/(i))*100}% ") 
      
 os.remove(exe)
